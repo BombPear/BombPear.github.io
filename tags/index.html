@@ -465,6 +465,8 @@
         
         <a href="#古诗" title="古诗" rel="1">古诗</a>
         
+        <a href="#技巧" title="技巧" rel="1">技巧</a>
+        
       </div>
 
       <!-- 标签列表 -->
@@ -525,6 +527,26 @@
             <h3 class="post-subtitle">
               古诗词
             </h3>
+            
+          </a>
+        </div>
+        <hr>
+        
+      </div>
+      
+      <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="技巧">
+          <span class="tag-text">技巧</span>
+        </span>
+        
+        <div class="post-preview">
+          <a href="/cn/MarkDown 常用操作/">
+            <h2 class="post-title">
+              Markdwon常规写法
+              
+              -- cn
+              
+            </h2>
             
           </a>
         </div>
@@ -1042,5 +1064,20 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 		
-	</body>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>
