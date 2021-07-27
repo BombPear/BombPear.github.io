@@ -2,23 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite-url/cn/%E5%A5%A5%E8%BF%90%E4%BC%9A/</loc>
+    <loc>http://yoursite-url/cn/%E7%A6%BB%E9%AA%9A/</loc>
     
-    <lastmod>2021-07-24</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite-url/en/%E8%AF%AD%E8%A8%80%E6%B5%8B%E8%AF%95/</loc>
-    
-    <lastmod>2021-07-24</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite-url/cn/%E8%AF%AD%E8%A8%80%E6%B5%8B%E8%AF%95/</loc>
-    
-    <lastmod>2021-07-24</lastmod>
+    <lastmod>2021-07-27</lastmod>
     
   </url>
   
@@ -82,6 +68,13 @@
   
   <url>
     <loc>http://yoursite-url/tags/Hexo-Theme-LiveMyLife/</loc>
+    <lastmod>2021-07-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursite-url/tags/%E5%8F%A4%E8%AF%97/</loc>
     <lastmod>2021-07-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
