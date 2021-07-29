@@ -475,6 +475,54 @@
   
   <!-- top start (article top hot config) -->
   
+  <div class="top">
+    <div class="iconfont icon-hot animated infinite tada"></div>
+  </div>
+  
+  <!-- top end -->
+  
+
+  <a href="/cn/MySQL高级-02-索引分析与优化/">
+    <h2 class="post-title">
+      MySQL高级-02-索引分析与优化
+    </h2>
+    <h3 class="post-subtitle">
+      
+    </h3>
+    <div class="post-content-preview">
+      1、索引简介
+1、是什么
+
+MySQL官方对索引的定义为：索引（Index）是帮助MySQL高效获取数据的数据结构。
+索引的本质：索引是数据结构。
+
+
+数据库原理：索引是采用 B 树结构存储的，所以对应的索引项并不会被删除，经过一段时间的增删改操作后，数据库中就会出现大量的存储碎片，这和磁盘碎片、内存碎片产生原理是类似的，这些存储碎片不仅占用了存储空间，而且降低了数据库运行的速度。如果发现索......
+    </div>
+  </a>
+  
+  <p class="post-meta" style="margin: 10px 0;">
+    Posted by 爆梨 on
+    2020-04-17
+  </p>
+  <div class="tags">
+    
+    <a href="/tags/#Mysql" title="Mysql">Mysql</a>
+    
+  </div>
+  
+
+</div>
+<hr>
+
+<div class="post-preview">
+  
+  <!-- top start (article top hot config) -->
+  
+  <div class="top">
+    <div class="iconfont icon-hot animated infinite tada"></div>
+  </div>
+  
   <!-- top end -->
   
 
@@ -487,17 +535,12 @@
     </h3>
     <div class="post-content-preview">
       
-一、基本原理
-
-
+1、基本原理
 Master - RW（Read Write）
-
 bin-log
 
 
-
 Slave  - RO （Read Only）
-
 
 slave会从master读取binlog来进行数据同步
 
@@ -506,7 +549,53 @@ slave会从master读取binlog来进行数据同步
 MySQL复制过程分成三步：
 
 1、master将改变记录到二进制日志（binary log）。这些记录过程叫做二进制日志事件，binary log events；
-2、slave将ma......
+2、slave将master的......
+    </div>
+  </a>
+  
+  <p class="post-meta" style="margin: 10px 0;">
+    Posted by 爆梨 on
+    2020-04-17
+  </p>
+  <div class="tags">
+    
+    <a href="/tags/#Mysql" title="Mysql">Mysql</a>
+    
+  </div>
+  
+
+</div>
+<hr>
+
+<div class="post-preview">
+  
+  <!-- top start (article top hot config) -->
+  
+  <div class="top">
+    <div class="iconfont icon-hot animated infinite tada"></div>
+  </div>
+  
+  <!-- top end -->
+  
+
+  <a href="/cn/MySQL高级-01-基础架构原理/">
+    <h2 class="post-title">
+      MySQL高级-01-基础架构原理
+    </h2>
+    <h3 class="post-subtitle">
+      
+    </h3>
+    <div class="post-content-preview">
+      
+1、再次认识MySQL1、MySQL简介
+MySQL是一个关系型数据库*管理系统*，由瑞典MySQL AB公司开发，目前属于Oracle公司。 
+SQL、NoSQL
+Redis
+
+
+MySQL是一种关联数据库管理系统，将数据保存在不同的表中，而不是将所有数据放在一个大仓库内，这样就增加了速度并提高了灵活性。
+Mysql是开源的，所以你不需要支付额外的费用。
+Mysql是可以定制的，采用了G......
     </div>
   </a>
   
@@ -556,91 +645,6 @@ Gitee 仓库地址：ht......
   <div class="tags">
     
     <a href="/tags/#Hexo-Theme-LiveMyLife" title="Hexo-Theme-LiveMyLife">Hexo-Theme-LiveMyLife</a>
-    
-  </div>
-  
-
-</div>
-<hr>
-
-<div class="post-preview">
-  
-  <!-- top start (article top hot config) -->
-  
-  <!-- top end -->
-  
-
-  <a href="/cn/MySQL高级-01-基础架构原理/">
-    <h2 class="post-title">
-      MySQL高级-01-基础架构原理
-    </h2>
-    <h3 class="post-subtitle">
-      
-    </h3>
-    <div class="post-content-preview">
-      
-1、再次认识MySQL
-1、MySQL简介
-
-MySQL是一个关系型数据库管理系统，由瑞典MySQL AB公司开发，目前属于Oracle公司。
-
-SQL、NoSQL
-Redis
-
-
-MySQL是一种关联数据库管理系统，将数据保存在不同的表中，而不是将所有数据放在一个大仓库内，这样就增加了速度并提高了灵活性。
-Mysql是开源的，所以你不需要支付额外的费用。
-Mysql是可以定制的，采用了G......
-    </div>
-  </a>
-  
-  <p class="post-meta" style="margin: 10px 0;">
-    Posted by 爆梨 on
-    2020-04-17
-  </p>
-  <div class="tags">
-    
-    <a href="/tags/#Mysql" title="Mysql">Mysql</a>
-    
-  </div>
-  
-
-</div>
-<hr>
-
-<div class="post-preview">
-  
-  <!-- top start (article top hot config) -->
-  
-  <!-- top end -->
-  
-
-  <a href="/cn/MySQL高级-02-索引分析与优化/">
-    <h2 class="post-title">
-      MySQL高级-02-索引分析与优化
-    </h2>
-    <h3 class="post-subtitle">
-      
-    </h3>
-    <div class="post-content-preview">
-      1、索引简介
-1、是什么
-
-MySQL官方对索引的定义为：索引（Index）是帮助MySQL高效获取数据的数据结构。
-索引的本质：索引是数据结构。
-
-
-数据库原理：索引是采用 B 树结构存储的，所以对应的索引项并不会被删除，经过一段时间的增删改操作后，数据库中就会出现大量的存储碎片，这和磁盘碎片、内存碎片产生原理是类似的，这些存储碎片不仅占用了存储空间，而且降低了数据库运行的速度。如果发现索......
-    </div>
-  </a>
-  
-  <p class="post-meta" style="margin: 10px 0;">
-    Posted by 爆梨 on
-    2020-04-17
-  </p>
-  <div class="tags">
-    
-    <a href="/tags/#Mysql" title="Mysql">Mysql</a>
     
   </div>
   
